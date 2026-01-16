@@ -38,38 +38,40 @@ function App({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <LanguageProvider>
-      <ThemeProvider>
-        <GoogleAnalytics />
-        {/* @ts-expect-error */}
-        <ClerkProvider
-          publishableKey={PUBLISHABLE_KEY}
-          initialState={pageProps.initialState}
-          appearance={{
-            baseTheme: undefined,
-            variables: {
-              colorPrimary: '#3b82f6',
-              colorBackground: '#ffffff',
-              colorInputBackground: '#ffffff',
-              colorInputText: '#000000',
+    <>
+      <GoogleAnalytics />
+      {/* @ts-expect-error */}
+      <ClerkProvider
+        publishableKey={PUBLISHABLE_KEY}
+        initialState={pageProps.initialState}
+        appearance={{
+          baseTheme: undefined,
+          variables: {
+            colorPrimary: '#3b82f6',
+            colorBackground: '#ffffff',
+            colorInputBackground: '#ffffff',
+            colorInputText: '#000000',
+          },
+          elements: {
+            modalContent: {
+              boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+              borderRadius: '0.75rem',
             },
-            elements: {
-              modalContent: {
-                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-                borderRadius: '0.75rem',
-              },
-              modalBackdrop: {
-                backgroundColor: 'rgba(0, 0, 0, 0.5)',
-              }
+            modalBackdrop: {
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
             }
-          }}
-        >
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        </ClerkProvider>
-      </ThemeProvider>
-    </LanguageProvider>
+          }
+        }}
+      >
+        <LanguageProvider>
+          <ThemeProvider>
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          </ThemeProvider>
+        </LanguageProvider>
+      </ClerkProvider>
+    </>
   );
 }
 
