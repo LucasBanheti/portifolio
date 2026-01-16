@@ -16,10 +16,8 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { getMainMenu, getLogos } from '@/lib/settings';
 
 // Importar SignedIn e SignedOut dinamicamente para garantir que sejam renderizados apenas no cliente
-// @ts-expect-error
-const SignedIn = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedIn), { ssr: false });
-// @ts-expect-error
-const SignedOut = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedOut), { ssr: false });
+const SignedIn = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedIn as unknown as import("react").ComponentType<import("react").PropsWithChildren<unknown>>), { ssr: false });
+const SignedOut = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedOut as unknown as import("react").ComponentType<import("react").PropsWithChildren<unknown>>), { ssr: false });
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -68,51 +66,46 @@ export const Header = () => {
       <nav className="hidden md:flex items-center gap-2 text-md">
         <Link
           href="/"
-          className={`px-4 py-2 rounded-md transition-colors duration-200 ${
-            router.pathname === '/'
-              ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-          }`}
+          className={`px-4 py-2 rounded-md transition-colors duration-200 ${router.pathname === '/'
+            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
         >
           {t('navigation.home')}
         </Link>
         <Link
           href="/sobre"
-          className={`px-4 py-2 rounded-md transition-colors duration-200 ${
-            router.pathname === '/sobre'
-              ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-          }`}
+          className={`px-4 py-2 rounded-md transition-colors duration-200 ${router.pathname === '/sobre'
+            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
         >
           {t('navigation.about')}
         </Link>
         <Link
           href="/projetos"
-          className={`px-4 py-2 rounded-md transition-colors duration-200 ${
-            router.pathname === '/projetos'
-              ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-          }`}
+          className={`px-4 py-2 rounded-md transition-colors duration-200 ${router.pathname === '/projetos'
+            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
         >
           {t('navigation.projects')}
         </Link>
         <Link
           href="/blog"
-          className={`px-4 py-2 rounded-md transition-colors duration-200 ${
-            router.pathname === '/blog'
-              ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-          }`}
+          className={`px-4 py-2 rounded-md transition-colors duration-200 ${router.pathname === '/blog'
+            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
         >
           {t('navigation.blog')}
         </Link>
         <Link
           href="/contato"
-          className={`px-4 py-2 rounded-md transition-colors duration-200 ${
-            router.pathname === '/contato'
-              ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
-              : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-          }`}
+          className={`px-4 py-2 rounded-md transition-colors duration-200 ${router.pathname === '/contato'
+            ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
         >
           {t('navigation.contact')}
         </Link>
@@ -128,7 +121,7 @@ export const Header = () => {
               <UserButton />
               <CustomSignOutButton />
             </SignedIn>
-           
+
             <SignedOut>
               <CustomSignInButton />
             </SignedOut>

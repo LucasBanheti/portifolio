@@ -10,10 +10,8 @@ import { CustomSignOutButton } from "@/components/commons/clerk/SignOutButton";
 import { UserButton } from "@clerk/nextjs";
 
 // Importar SignedIn e SignedOut dinamicamente
-// @ts-expect-error
-const SignedIn = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedIn), { ssr: false });
-// @ts-expect-error
-const SignedOut = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedOut), { ssr: false });
+const SignedIn = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedIn as unknown as import("react").ComponentType<import("react").PropsWithChildren<unknown>>), { ssr: false });
+const SignedOut = dynamic(() => import("@clerk/nextjs").then((mod) => mod.SignedOut as unknown as import("react").ComponentType<import("react").PropsWithChildren<unknown>>), { ssr: false });
 
 interface MenuProps {
   isVisible: boolean;
@@ -104,7 +102,7 @@ export const Menu = ({ isVisible, onClose }: MenuProps) => {
                 </div>
                 <CustomSignOutButton />
               </SignedIn>
-              
+
               <SignedOut>
                 <CustomSignInButton />
               </SignedOut>
