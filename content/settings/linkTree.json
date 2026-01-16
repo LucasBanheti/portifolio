@@ -1,7 +1,12 @@
 {
   "linkTree": [
     {
-      "href": "https://www.upwork.com/freelancers/guicirelli?mp_source=share",
+      "href": "https://www.linkedin.com/in/lucas-banheti/",
+      "label": "LinkedIn",
+      "icon": "FaLinkedin"
+    },
+    {
+      "href": "https://www.upwork.com/freelancers/~0185fd1a5d8d3d43d4?mp_source=share",
       "label": "Upwork",
       "icon": "FaUpwork"
     }

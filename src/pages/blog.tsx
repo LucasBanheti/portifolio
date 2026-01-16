@@ -85,7 +85,27 @@ const Blog = ({ businessSettings, generalSettings }: BlogProps) => {
                 
                 {/* Timeline items */}
                 <div className="space-y-12">
-                  {Array.isArray(t('blog.timeline')) && t('blog.timeline').map((item: any, index: number) => (
+                  {Array.isArray(t('blog.timeline')) && [...t('blog.timeline')]
+                    .sort((a: any, b: any) => {
+                      // Extrair o ano mais recente de cada data
+                      const getYear = (dateStr: string): number => {
+                        // Procura por todos os anos (4 dígitos começando com 19 ou 20)
+                        const yearMatches = dateStr.match(/\b(19|20)\d{2}\b/g);
+                        if (yearMatches && yearMatches.length > 0) {
+                          // Se houver múltiplos anos, pega o mais recente (maior)
+                          const years = yearMatches.map(y => parseInt(y));
+                          return Math.max(...years);
+                        }
+                        // Se não encontrar, retorna 0 (vai para o final)
+                        return 0;
+                      };
+                      
+                      // Ordenar em ordem decrescente (mais recente primeiro)
+                      const yearA = getYear(a.date);
+                      const yearB = getYear(b.date);
+                      return yearB - yearA;
+                    })
+                    .map((item: any, index: number) => (
                     <div key={index} className="relative flex items-start">
                       {/* Timeline dot */}
                       <div className="absolute left-6 w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>

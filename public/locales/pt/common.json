@@ -8,7 +8,7 @@
   },
   "home": {
     "title": "Prazer, eu sou",
-    "titleBold": "Guilherme",
+    "titleBold": "Lucas Banheti",
     "subtitle": "Desenvolvedor Full Stack que transforma ideias em soluções digitais funcionais",
     "whatsapp": "WhatsApp",
     "hero": {
@@ -77,16 +77,16 @@
       "title": "Minha Jornada",
       "subtitle": "De onde vim e para onde vou",
       "item1": {
-        "date": "Fev 2024",
-        "title": "Início em ADS"
+        "date": "Fev 2022 – Dez 2024",
+        "title": "Graduação em ADS - UniCesumar"
       },
       "item2": {
-        "date": "Jan 2025",
-        "title": "A.Yoshii Engenharia"
+        "date": "2024",
+        "title": "Curso Desenvolvedor Web Completo - Udemy"
       },
       "item3": {
-        "date": "Jul 2025",
-        "title": "Mentoria Especializada"
+        "date": "Ago 2024 – Atual",
+        "title": "BRF Brasil Foods - Operador de Empilhadeira"
       },
       "viewAll": "Ver Linha do Tempo Completa"
     },
@@ -121,11 +121,11 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "introduction": "Olá! Sou Guilherme Cirelli Lopes, estudante de Análise e Desenvolvimento de Sistemas, conhecido por ser esforçado e honrado em cumprir o que prometo. Meu objetivo é ajudar empreendedores e profissionais como você a transformar ideias em projetos digitais de sucesso, com soluções escaláveis, modernas e funcionais.",
+    "introduction": "Olá! Sou Lucas Banheti, recém-formado em Análise e Desenvolvimento de Sistemas pela UniCesumar. Profissional com sólida base em lógica de programação, desenvolvimento web e banco de dados. Possuo boa capacidade de aprendizado, responsabilidade e disposição para enfrentar desafios. Busco iniciar minha carreira na área de tecnologia como desenvolvedor júnior ou estagiário, aplicando os conhecimentos adquiridos na graduação e em cursos práticos de desenvolvimento web.",
     "education": {
       "title": "Educação",
-      "degree": "Graduando em Análise e Desenvolvimento de Sistemas",
-      "degreeShort": "Análise e Desenvolvimento de Sistemas"
+      "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "degreeShort": "Análise e Desenvolvimento de Sistemas - UniCesumar (Concluído)"
     },
     "specialization": {
       "title": "Especialização",
@@ -154,8 +154,8 @@
       "frontend": "Front-End:",
       "backend": "Back-End:",
       "deploy": "Deploy & Otimização:",
-      "frontendTechs": "ReactJS | NextJS | HTML5 | CSS3 | Tailwind CSS | Bootstrap | JavaScript | TypeScript",
-      "backendTechs": "Node.js | SQL | APIs REST | Git | GitHub",
+      "frontendTechs": "HTML5 | CSS3 | JavaScript | Bootstrap | jQuery | ReactJS | NextJS | Tailwind CSS | TypeScript",
+      "backendTechs": "PHP | Node.js | MySQL | TypeScript | AJAX | Git | GitHub",
       "deployTechs": "Netlify | Vercel"
     }
   },
@@ -334,7 +334,7 @@
   "footer": {
     "quickLinks": "Links Rápidos",
     "contact": "Contato",
-    "copyright": "© 2025 Guilherme Cirelli Lopes. Todos os direitos reservados. Construído com Next.js e muito ☕."
+    "copyright": "© {year} Lucas Banheti. Todos os direitos reservados. Construído com Next.js e muito ☕."
   },
   "auth": {
     "signIn": "Entrar",
@@ -371,7 +371,7 @@
     }
   },
   "notFound": {
-    "pageTitle": "404 | Guilherme Cirelli",
+    "pageTitle": "404 | Lucas Banheti",
     "heading": "404",
     "message1": "Oops, não conseguimos encontrar esta página!",
     "message2": "Clique no botão abaixo para retornar à página inicial.",
@@ -393,39 +393,49 @@
     },
     "timeline": [
       {
-        "date": "Fev 2024",
-        "title": "Início na Análise e Desenvolvimento de Sistemas",
-        "description": "Comecei minha jornada acadêmica no curso superior de ADS, aprendendo os fundamentos essenciais: lógica de programação, algoritmos e estrutura de dados. Descobri como os computadores realmente funcionam, desde os sistemas binários até as redes."
+        "date": "2007",
+        "title": "Operador de Computador – Microlins",
+        "description": "Curso complementar que marcou meu primeiro contato com tecnologia e informática, desenvolvendo habilidades básicas em operação de computadores."
       },
       {
-        "date": "Mar 2024 – Maio 2024",
-        "title": "Primeiros Passos no Desenvolvimento Web",
-        "description": "Mergulhei no mundo do desenvolvimento web, aprendendo HTML5, CSS3 e JavaScript. Criei meus primeiros sites e descobri a importância do Git para trabalhar em equipe. Foquei em fazer páginas que funcionam bem em qualquer dispositivo."
+        "date": "2011",
+        "title": "Programação Web – WMBarros Treinamentos",
+        "description": "Curso de Programação Web com PHP, HTML e JavaScript + Banco de Dados, onde tive meu primeiro contato com desenvolvimento web e programação."
       },
       {
-        "date": "Jun 2024 – Dez 2024",
-        "title": "Explorando o Desenvolvimento Web",
-        "description": "Aprofundei meus conhecimentos criando projetos mais complexos. Aprendi a trabalhar com APIs, melhorar a experiência do usuário e dar os primeiros passos com Node.js no back-end. Cada projeto trouxe novos desafios e aprendizados."
+        "date": "Fev 2017 – 2019",
+        "title": "Auxiliar de Produção – PROPAL",
+        "description": "Trabalhei como Auxiliar de Produção na PROPAL – Comércio de Alimentos, em Ibiporã, desenvolvendo habilidades de organização, disciplina e trabalho em equipe."
       },
       {
-        "date": "Jan 2025",
-        "title": "Início na A.Yoshii Engenharia",
-        "description": "Conquistei minha primeira oportunidade profissional como Assistente de TI. Aqui, coloco em prática meus conhecimentos, ajudando a manter sistemas funcionando e resolvendo problemas reais de infraestrutura de TI."
+        "date": "Jan 2020 – 2022",
+        "title": "Conferente – BRF Brasil Foods S.A",
+        "description": "Iniciei minha trajetória na BRF Brasil Foods S.A como Conferente, desenvolvendo habilidades de organização, atenção aos detalhes e responsabilidade."
       },
       {
-        "date": "Fev 2025 – Jun 2025",
-        "title": "Desenvolvendo Soluções Completas",
-        "description": "Dediquei-me a criar aplicações web do zero, unindo front-end e back-end. Trabalhei com Next.js e Node.js, sempre pensando na qualidade do código e na experiência do usuário. Cada projeto me ensinou algo novo sobre desenvolvimento profissional."
+        "date": "Fev 2022 – Dez 2024",
+        "title": "Tecnólogo em Análise e Desenvolvimento de Sistemas – UniCesumar",
+        "description": "Concluí minha graduação em ADS na UniCesumar, em Londrina-PR. Aprendi os fundamentos essenciais: lógica de programação, algoritmos, estrutura de dados, desenvolvimento web e banco de dados. Formação que me deu uma base sólida para iniciar minha carreira na área de tecnologia."
       },
       {
-        "date": "Jul 2025 – Atual",
-        "title": "Aprendizado com Mentoria",
-        "description": "Iniciei um programa de mentoria personalizado para aprimorar minhas habilidades em desenvolvimento web. Estou aprendendo as melhores práticas do mercado e construindo projetos reais com Next.js, React e Node.js."
+        "date": "Fev 2022 – 2023",
+        "title": "Conferente II – BRF Brasil Foods S.A",
+        "description": "Promovido a Conferente II na BRF, assumindo maiores responsabilidades e desenvolvendo ainda mais minhas habilidades organizacionais e de trabalho em equipe."
       },
       {
-        "date": "Set 2025 – Em andamento",
-        "title": "Construindo Meu Futuro",
-        "description": "Trabalho no meu portfolio e em projetos pessoais, colocando em prática tudo que aprendi. Busco contribuir com a comunidade open source e continuo aprendendo novas tecnologias e métodos de desenvolvimento."
+        "date": "Jan 2023 – Jul 2024",
+        "title": "Operador de Transpaleteira – BRF Brasil Foods S.A",
+        "description": "Atuei como Operador de Transpaleteira na BRF, desenvolvendo habilidades operacionais e mantendo o comprometimento e disciplina no trabalho."
+      },
+      {
+        "date": "2024",
+        "title": "Curso Desenvolvedor Web Completo – Udemy",
+        "description": "Concluí o curso completo de Desenvolvimento Web na Udemy, aprendendo HTML5, CSS3, JavaScript, Bootstrap, jQuery, PHP, MySQL, TypeScript, AJAX e SEO. Este curso me permitiu aprofundar meus conhecimentos práticos em desenvolvimento web."
+      },
+      {
+        "date": "Ago 2024 – Atual",
+        "title": "Operador de Empilhadeira Retrátil – BRF Brasil Foods S.A",
+        "description": "Atualmente trabalho como Operador de Empilhadeira Retrátil na BRF, enquanto busco minha primeira oportunidade na área de tecnologia como desenvolvedor júnior ou estagiário, aplicando os conhecimentos adquiridos na graduação e em cursos práticos."
       }
     ]
   }

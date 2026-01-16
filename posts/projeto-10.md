@@ -1,7 +1,7 @@
 ---
 title: "Projeto 10"
 date: "2025-01-10"
-author: "Guilherme Cirelli Lopes"
+author: "Lucas Banheti"
 public: true
 ---
 

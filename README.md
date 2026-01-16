@@ -1,4 +1,4 @@
-# Portfolio Guilherme Cirelli Lopes
+# Portfolio Lucas Banheti
 
 Um portfolio pessoal moderno e responsivo desenvolvido com Next.js, TypeScript e Tailwind CSS, implementando as melhores práticas de desenvolvimento web.
 
@@ -246,7 +246,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📞 Contato
 
-**Guilherme Cirelli Lopes**
+**Lucas Banheti**
 
 - Email: guilherme@cirelli.dev
 - LinkedIn: [linkedin.com/in/guicirelli](https://linkedin.com/in/guicirelli)
@@ -254,4 +254,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Desenvolvido com ❤️ por Guilherme Cirelli Lopes
+Desenvolvido com ❤️ por Lucas Banheti

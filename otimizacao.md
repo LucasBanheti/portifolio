@@ -7,7 +7,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 
 ### Title
 ```html
-<title>Guilherme Cirelli — Desenvolvedor Full Stack | Next.js, React, Node.js</title>
+<title>Lucas Banheti — Desenvolvedor Full Stack | Next.js, React, Node.js</title>
 ```
 - Comprimento ideal: 50-60 caracteres
 - Palavras-chave principais no início
@@ -39,12 +39,12 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 ```html
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Guilherme Cirelli — Desenvolvedor Full Stack" />
+<meta property="og:title" content="Lucas Banheti — Desenvolvedor Full Stack" />
 <meta property="og:description" content="Desenvolvimento de aplicações web modernas com Next.js, React e Node.js. Veja meu portfolio de projetos." />
 <meta property="og:url" content="https://www.guilhermecirelli.com.br/" />
-<meta property="og:site_name" content="Guilherme Cirelli" />
+<meta property="og:site_name" content="Lucas Banheti" />
 <meta property="og:image" content="https://www.guilhermecirelli.com.br/img/og-image.jpg" />
-<meta property="og:image:alt" content="Portfolio Guilherme Cirelli - Desenvolvedor Full Stack" />
+<meta property="og:image:alt" content="Portfolio Lucas Banheti - Desenvolvedor Full Stack" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 ```
@@ -52,7 +52,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 ### Twitter Cards
 ```html
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Guilherme Cirelli — Desenvolvedor Full Stack" />
+<meta name="twitter:title" content="Lucas Banheti — Desenvolvedor Full Stack" />
 <meta name="twitter:description" content="Desenvolvimento de aplicações web modernas com Next.js, React e Node.js. Veja meu portfolio de projetos." />
 <meta name="twitter:image" content="https://www.guilhermecirelli.com.br/img/twitter-image.jpg" />
 ```
@@ -64,7 +64,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Guilherme Cirelli",
+  "name": "Lucas Banheti",
   "jobTitle": "Desenvolvedor Full Stack",
   "url": "https://www.guilhermecirelli.com.br",
   "image": "https://www.guilhermecirelli.com.br/img/perfil.jpg",
@@ -87,9 +87,9 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Portfolio Guilherme Cirelli",
+  "name": "Portfolio Lucas Banheti",
   "url": "https://www.guilhermecirelli.com.br",
-  "description": "Portfolio profissional de Guilherme Cirelli, desenvolvedor Full Stack especializado em Next.js, React e Node.js",
+  "description": "Portfolio profissional de Lucas Banheti, desenvolvedor Full Stack especializado em Next.js, React e Node.js",
   "inLanguage": "pt-BR"
 }
 ```

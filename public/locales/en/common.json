@@ -8,7 +8,7 @@
   },
   "home": {
     "title": "Pleasure, I am",
-    "titleBold": "Guilherme",
+    "titleBold": "Lucas Banheti",
     "subtitle": "Full Stack Developer who transforms ideas into functional digital solutions",
     "whatsapp": "WhatsApp",
     "hero": {
@@ -77,16 +77,16 @@
       "title": "My Journey",
       "subtitle": "Where I came from and where I'm going",
       "item1": {
-        "date": "Feb 2024",
-        "title": "Starting in ADS"
+        "date": "Feb 2022 – Dec 2024",
+        "title": "Graduation in Systems Analysis and Development - UniCesumar"
       },
       "item2": {
-        "date": "Jan 2025",
-        "title": "A.Yoshii Engenharia"
+        "date": "2024",
+        "title": "Complete Web Developer Course - Udemy"
       },
       "item3": {
-        "date": "Jul 2025",
-        "title": "Specialized Mentorship"
+        "date": "Aug 2024 – Current",
+        "title": "BRF Brasil Foods - Forklift Operator"
       },
       "viewAll": "View Complete Timeline"
     },
@@ -121,11 +121,11 @@
   },
   "about": {
     "title": "About Me",
-    "introduction": "Hello! I'm Guilherme Cirelli Lopes, a Systems Analysis and Development student, known for being hardworking and honorable in keeping my promises. My goal is to help entrepreneurs and professionals like you transform ideas into successful digital projects, with scalable, modern and functional solutions.",
+    "introduction": "Hello! I'm Lucas Banheti, recently graduated in Systems Analysis and Development from UniCesumar. Professional with a solid foundation in programming logic, web development and databases. I have good learning ability, responsibility and willingness to face challenges. I seek to start my career in technology as a junior developer or intern, applying the knowledge acquired in graduation and practical web development courses.",
     "education": {
       "title": "Education",
-      "degree": "Undergraduate in Systems Analysis and Development",
-      "degreeShort": "Systems Analysis and Development"
+      "degree": "Technologist in Systems Analysis and Development",
+      "degreeShort": "Systems Analysis and Development - UniCesumar (Completed)"
     },
     "specialization": {
       "title": "Specialization",
@@ -154,8 +154,8 @@
       "frontend": "Front-End:",
       "backend": "Back-End:",
       "deploy": "Deploy & Optimization:",
-      "frontendTechs": "ReactJS | NextJS | HTML5 | CSS3 | Tailwind CSS | Bootstrap | JavaScript | TypeScript",
-      "backendTechs": "Node.js | SQL | REST APIs | Git | GitHub",
+      "frontendTechs": "HTML5 | CSS3 | JavaScript | Bootstrap | jQuery | ReactJS | NextJS | Tailwind CSS | TypeScript",
+      "backendTechs": "PHP | Node.js | MySQL | TypeScript | AJAX | Git | GitHub",
       "deployTechs": "Netlify | Vercel"
     }
   },
@@ -334,7 +334,7 @@
   "footer": {
     "quickLinks": "Quick Links",
     "contact": "Contact",
-    "copyright": "© 2025 Guilherme Cirelli Lopes. All rights reserved. Built with Next.js and lots of ☕."
+    "copyright": "© {year} Lucas Banheti. All rights reserved. Built with Next.js and lots of ☕."
   },
   "auth": {
     "signIn": "Sign in",
@@ -371,7 +371,7 @@
     }
   },
   "notFound": {
-    "pageTitle": "404 | Guilherme Cirelli",
+    "pageTitle": "404 | Lucas Banheti",
     "heading": "404",
     "message1": "Oops, we can't find this page!",
     "message2": "Click the button below to return to the home page.",
@@ -393,39 +393,49 @@
     },
     "timeline": [
       {
-        "date": "Feb 2024",
-        "title": "Beginning in Systems Analysis and Development",
-        "description": "Started my academic journey in the ADS degree program, learning the essential fundamentals: programming logic, algorithms, and data structures. Discovered how computers really work, from binary systems to networks."
+        "date": "2007",
+        "title": "Computer Operator – Microlins",
+        "description": "Complementary course that marked my first contact with technology and computing, developing basic skills in computer operation."
       },
       {
-        "date": "Mar 2024 – May 2024",
-        "title": "First Steps in Web Development",
-        "description": "Dove into the world of web development, learning HTML5, CSS3, and JavaScript. Created my first websites and discovered the importance of Git for teamwork. Focused on making pages that work well on any device."
+        "date": "2011",
+        "title": "Web Programming – WMBarros Training",
+        "description": "Web Programming course with PHP, HTML and JavaScript + Database, where I had my first contact with web development and programming."
       },
       {
-        "date": "Jun 2024 – Dec 2024",
-        "title": "Exploring Web Development",
-        "description": "Deepened my knowledge by creating more complex projects. Learned to work with APIs, improve user experience, and take first steps with Node.js in back-end. Each project brought new challenges and learnings."
+        "date": "Feb 2017 – 2019",
+        "title": "Production Assistant – PROPAL",
+        "description": "Worked as Production Assistant at PROPAL – Food Trade, in Ibiporã, developing skills in organization, discipline and teamwork."
       },
       {
-        "date": "Jan 2025",
-        "title": "Starting at A.Yoshii Engenharia",
-        "description": "Secured my first professional opportunity as an IT Assistant. Here, I put my knowledge into practice, helping to keep systems running and solving real IT infrastructure problems."
+        "date": "Jan 2020 – 2022",
+        "title": "Checker – BRF Brasil Foods S.A",
+        "description": "Started my career at BRF Brasil Foods S.A as Checker, developing skills in organization, attention to detail and responsibility."
       },
       {
-        "date": "Feb 2025 – Jun 2025",
-        "title": "Building Complete Solutions",
-        "description": "Dedicated myself to creating web applications from scratch, combining front-end and back-end. Worked with Next.js and Node.js, always thinking about code quality and user experience. Each project taught me something new about professional development."
+        "date": "Feb 2022 – Dec 2024",
+        "title": "Technologist in Systems Analysis and Development – UniCesumar",
+        "description": "Completed my graduation in Systems Analysis and Development at UniCesumar, in Londrina-PR. Learned essential fundamentals: programming logic, algorithms, data structures, web development and databases. Education that gave me a solid foundation to start my career in technology."
       },
       {
-        "date": "Jul 2025 – Current",
-        "title": "Learning through Mentorship",
-        "description": "Started a personalized mentorship program to enhance my web development skills. Learning industry best practices and building real projects with Next.js, React, and Node.js."
+        "date": "Feb 2022 – 2023",
+        "title": "Checker II – BRF Brasil Foods S.A",
+        "description": "Promoted to Checker II at BRF, taking on greater responsibilities and further developing my organizational and teamwork skills."
       },
       {
-        "date": "Sep 2025 – In progress",
-        "title": "Building My Future",
-        "description": "Working on my portfolio and personal projects, putting everything I've learned into practice. Looking to contribute to the open source community and continuing to learn new technologies and development methods."
+        "date": "Jan 2023 – Jul 2024",
+        "title": "Pallet Truck Operator – BRF Brasil Foods S.A",
+        "description": "Worked as Pallet Truck Operator at BRF, developing operational skills and maintaining commitment and discipline at work."
+      },
+      {
+        "date": "2024",
+        "title": "Complete Web Developer Course – Udemy",
+        "description": "Completed the complete Web Development course on Udemy, learning HTML5, CSS3, JavaScript, Bootstrap, jQuery, PHP, MySQL, TypeScript, AJAX and SEO. This course allowed me to deepen my practical knowledge in web development."
+      },
+      {
+        "date": "Aug 2024 – Current",
+        "title": "Retractable Forklift Operator – BRF Brasil Foods S.A",
+        "description": "Currently working as Retractable Forklift Operator at BRF, while seeking my first opportunity in technology as a junior developer or intern, applying the knowledge acquired in graduation and practical courses."
       }
     ]
   }

@@ -35,8 +35,8 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
   const { isSignedIn } = useUser(); // Usar o hook useUser
 
   const metaTitle = language === 'pt'
-    ? 'Guilherme Cirelli — Desenvolvedor Full Stack | Next.js, React, Node.js'
-    : 'Guilherme Cirelli — Full Stack Developer | Next.js, React, Node.js';
+    ? 'Lucas Banheti — Desenvolvedor Full Stack | Next.js, React, Node.js'
+    : 'Lucas Banheti — Full Stack Developer | Next.js, React, Node.js';
 
   const metaDescription = language === 'pt'
     ? 'Desenvolvedor Full Stack especializado em Next.js, React e Node.js. Criação de aplicações web modernas, responsivas e escaláveis. Veja meu portfólio e entre em contato.'
@@ -47,13 +47,13 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
     : 'full stack developer, next.js, react, node.js, typescript, web development';
 
   const ogImageAlt = language === 'pt'
-    ? 'Portfolio Guilherme Cirelli - Desenvolvedor Full Stack'
-    : 'Guilherme Cirelli Portfolio - Full Stack Developer';
+    ? 'Portfolio Lucas Banheti - Desenvolvedor Full Stack'
+    : 'Lucas Banheti Portfolio - Full Stack Developer';
 
   const structuredDataJobTitle = language === 'pt' ? 'Desenvolvedor Full Stack' : 'Full Stack Developer';
   const structuredDataWebsiteDescription = language === 'pt'
-    ? 'Portfólio profissional de Guilherme Cirelli, desenvolvedor Full Stack especializado em Next.js, React e Node.js'
-    : 'Professional portfolio of Guilherme Cirelli, Full Stack developer specialized in Next.js, React and Node.js';
+    ? 'Portfólio profissional de Lucas Banheti, desenvolvedor Full Stack especializado em Next.js, React e Node.js'
+    : 'Professional portfolio of Lucas Banheti, Full Stack developer specialized in Next.js, React and Node.js';
   const structuredDataLanguage = language === 'pt' ? 'pt-BR' : 'en-US';
 
   return (
@@ -92,12 +92,12 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
               "@graph": [
                 {
                   "@type": "Person",
-                  "name": "Guilherme Cirelli",
+                  "name": "Lucas Banheti",
                   "jobTitle": structuredDataJobTitle,
                   "url": generalSettings.siteUrl,
                   "image": `${generalSettings.siteUrl}/img/perfil.jpeg`,
                   "sameAs": [
-                    "https://www.upwork.com/freelancers/guicirelli?mp_source=share"
+                    "https://www.upwork.com/freelancers/~0185fd1a5d8d3d43d4?mp_source=share"
                   ],
                   "knowsAbout": [
                     "Next.js",
@@ -109,7 +109,7 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
                 },
                 {
                   "@type": "WebSite",
-                  "name": "Portfolio Guilherme Cirelli",
+                  "name": "Portfolio Lucas Banheti",
                   "url": generalSettings.siteUrl,
                   "description": structuredDataWebsiteDescription,
                   "inLanguage": structuredDataLanguage

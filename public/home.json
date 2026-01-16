@@ -2,11 +2,11 @@
   "aboutMe": {
     "title": {
   "default": "Pleasure, I am",
-  "bold": "Guilherme"
+  "bold": "Lucas Banheti"
 },
-    "description": "I'm a web developer passionate about technology...",
+    "description": "Recém-formado em Análise e Desenvolvimento de Sistemas, buscando iniciar carreira na área de tecnologia como desenvolvedor júnior ou estagiário.",
     "contact": {
-      "link": "https://wa.me/5543991575781",
+      "link": "https://wa.me/5543998457205",
       "label": "WhatsApp"
     },
     "techs": [
@@ -21,12 +21,12 @@
 ],
     "pfp": {
   "image": {
-    "url": "/img/foto perfil.jpeg",
-    "alt": "Foto de Guilherme Cirelli Lopes"
+    "url": "/img/perfil.jpeg",
+    "alt": "Foto de Lucas Banheti"
   },
   "experience": {
-    "default": "Undergraduate in",
-    "bold": "Systems Analysis and Development"
+    "default": "Tecnólogo em",
+    "bold": "Análise e Desenvolvimento de Sistemas"
   }
 }
   },

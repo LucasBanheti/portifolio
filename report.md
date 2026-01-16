@@ -1,8 +1,8 @@
-# Relatório Técnico - Portfolio Guilherme Cirelli Lopes
+# Relatório Técnico - Portfolio Lucas Banheti
 
 ## 📋 Resumo Executivo
 
-Este relatório documenta as melhorias implementadas no portfolio pessoal de Guilherme Cirelli Lopes, aplicando as melhores práticas do Super Prompt para criar um sistema Next.js moderno, escalável e de alta qualidade.
+Este relatório documenta as melhorias implementadas no portfolio pessoal de Lucas Banheti, aplicando as melhores práticas do Super Prompt para criar um sistema Next.js moderno, escalável e de alta qualidade.
 
 ## 🎯 Objetivos Alcançados
 
@@ -288,6 +288,6 @@ O projeto agora serve como um excelente boilerplate para outros desenvolvedores 
 
 ---
 
-**Desenvolvido por**: Guilherme Cirelli Lopes  
+**Desenvolvido por**: Lucas Banheti  
 **Data**: Janeiro 2025  
 **Versão**: 2.0.0

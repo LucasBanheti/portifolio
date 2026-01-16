@@ -1,10 +1,11 @@
 export const siteConfig = {
-  name: "Guilherme Cirelli",
-  description: "Desenvolvedor Full Stack especializado em Next.js, React e Node.js. Criação de aplicações web modernas, responsivas e escaláveis.",
+  name: "Lucas Banheti",
+  description: "Desenvolvedor web recém-formado em Análise e Desenvolvimento de Sistemas, com sólida base em lógica de programação, desenvolvimento web e banco de dados. Buscando iniciar carreira na área de tecnologia.",
   url: "https://www.guilhermecirelli.com.br",
   ogImage: "/img/og-image.jpg",
   links: {
-    upwork: "https://www.upwork.com/freelancers/guicirelli?mp_source=share"
+    linkedin: "https://www.linkedin.com/in/lucas-banheti/",
+    upwork: "https://www.upwork.com/freelancers/~0185fd1a5d8d3d43d4?mp_source=share"
   },
   keywords: [
     "desenvolvedor full stack",
@@ -16,12 +17,17 @@ export const siteConfig = {
     "frontend",
     "backend"
   ],
-  creator: "Guilherme Cirelli",
+  creator: "Lucas Banheti",
   themeColor: "#0f172a",
   socialLinks: [
     {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/lucas-banheti/",
+      icon: "linkedin"
+    },
+    {
       name: "Upwork",
-      url: "https://www.upwork.com/freelancers/guicirelli?mp_source=share",
+      url: "https://www.upwork.com/freelancers/~0185fd1a5d8d3d43d4?mp_source=share",
       icon: "upwork"
     }
   ],
