@@ -39,7 +39,7 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
     : 'Lucas Banheti — Full Stack Developer | Next.js, React, Node.js';
 
   const metaDescription = language === 'pt'
-    ? 'Desenvolvedor Full Stack especializado em Next.js, React e Node.js. Criação de aplicações web modernas, responsivas e escaláveis. Veja meu portfólio e entre em contato.'
+    ? 'Desenvolvedor Full Stack especializado em Next.js, React e Node.js. Criação de aplicações web modernas, responsivas e escaláveis. Veja meu portfolio e entre em contato.'
     : 'Full Stack Developer specialized in Next.js, React, and Node.js. Building modern, responsive, and scalable web applications. Explore my portfolio and get in touch.';
 
   const metaKeywords = language === 'pt'
@@ -52,7 +52,7 @@ const Home = ({ home, allPostsData, businessSettings, generalSettings }: HomePro
 
   const structuredDataJobTitle = language === 'pt' ? 'Desenvolvedor Full Stack' : 'Full Stack Developer';
   const structuredDataWebsiteDescription = language === 'pt'
-    ? 'Portfólio profissional de Lucas Banheti, desenvolvedor Full Stack especializado em Next.js, React e Node.js'
+    ? 'Portfolio profissional de Lucas Banheti, desenvolvedor Full Stack especializado em Next.js, React e Node.js'
     : 'Professional portfolio of Lucas Banheti, Full Stack developer specialized in Next.js, React and Node.js';
   const structuredDataLanguage = language === 'pt' ? 'pt-BR' : 'en-US';
 
@@ -153,7 +153,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const generalSettings = getGeneralSettings();
 
   return {
-    props: { 
+    props: {
       home,
       allPostsData,
       businessSettings,

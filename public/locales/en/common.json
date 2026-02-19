@@ -222,7 +222,7 @@
           "Shadcn UI"
         ]
       },
-      "percirelli": {
+      "website": {
         "features": [
           "Dynamic product catalog",
           "Sales page with highlighted categories",
@@ -236,7 +236,7 @@
           "Netlify (Deploy)"
         ]
       },
-      "codervex": {
+      "scannota": {
         "features": [
           "Web project analysis (GitHub or ZIP)",
           "AI superprompt generation with structured context",
@@ -255,7 +255,35 @@
           "Netlify (Deploy)"
         ]
       },
-      "gymcirelli": {
+      "lbcamisas": {
+        "features": [
+          "Dynamic product catalog",
+          "Sales page with highlighted categories",
+          "Modern, responsive layout",
+          "Fast and optimized navigation"
+        ],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Netlify (Deploy)"
+        ]
+      },
+      "agromax": {
+        "features": [
+          "Institutional website for the agribusiness sector",
+          "Presentation of services and machinery",
+          "Robust and responsive layout",
+          "Optimization for search and performance"
+        ],
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      "gym": {
         "features": [
           "Complete strength training guide",
           "Exercise library by muscle group",

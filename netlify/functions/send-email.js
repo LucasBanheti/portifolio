@@ -21,7 +21,7 @@ exports.handler = async (event, context) => {
 
   const msg = {
     to: 'lucas_banheti@hotmail.com', // Replace with your recipient email
-    from: 'percicirelli.33@gmail.com', // Replace with your verified SendGrid sender
+    from: 'lucas_banheti@hotmail.com', // Remetente atualizado para o e-mail do usuário
     subject: `New message from ${name} (${email})`,
     text: message,
     html: `<strong>Name:</strong> ${name}<br/>

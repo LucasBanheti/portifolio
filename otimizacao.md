@@ -23,7 +23,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 
 ### Canonical e Robots
 ```html
-<link rel="canonical" href="https://www.guilhermecirelli.com.br/" />
+<link rel="canonical" href="https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc/" />
 <meta name="robots" content="index, follow" />
 ```
 
@@ -41,9 +41,9 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Lucas Banheti — Desenvolvedor Full Stack" />
 <meta property="og:description" content="Desenvolvimento de aplicações web modernas com Next.js, React e Node.js. Veja meu portfolio de projetos." />
-<meta property="og:url" content="https://www.guilhermecirelli.com.br/" />
+<meta property="og:url" content="https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc/" />
 <meta property="og:site_name" content="Lucas Banheti" />
-<meta property="og:image" content="https://www.guilhermecirelli.com.br/img/og-image.jpg" />
+<meta property="og:image" content="https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc/img/og-image.jpg" />
 <meta property="og:image:alt" content="Portfolio Lucas Banheti - Desenvolvedor Full Stack" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -54,7 +54,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Lucas Banheti — Desenvolvedor Full Stack" />
 <meta name="twitter:description" content="Desenvolvimento de aplicações web modernas com Next.js, React e Node.js. Veja meu portfolio de projetos." />
-<meta name="twitter:image" content="https://www.guilhermecirelli.com.br/img/twitter-image.jpg" />
+<meta name="twitter:image" content="https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc/img/twitter-image.jpg" />
 ```
 
 ## 3. JSON-LD (Schema.org)
@@ -66,8 +66,8 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
   "@type": "Person",
   "name": "Lucas Banheti",
   "jobTitle": "Desenvolvedor Full Stack",
-  "url": "https://www.guilhermecirelli.com.br",
-  "image": "https://www.guilhermecirelli.com.br/img/perfil.jpg",
+  "url": "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc",
+  "image": "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc/img/perfil.jpg",
   "sameAs": [
     "https://github.com/seu-github",
     "https://linkedin.com/in/seu-linkedin"
@@ -88,7 +88,7 @@ Aumentar taxa de conversão (CRO) e visibilidade orgânica (SEO) através de mel
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Portfolio Lucas Banheti",
-  "url": "https://www.guilhermecirelli.com.br",
+  "url": "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc",
   "description": "Portfolio profissional de Lucas Banheti, desenvolvedor Full Stack especializado em Next.js, React e Node.js",
   "inLanguage": "pt-BR"
 }

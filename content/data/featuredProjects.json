@@ -3,15 +3,45 @@
   "projects": [
     {
       "id": 1,
-      "slug": "codervex",
-      "title": "Codervex",
+      "slug": "scannota",
+      "title": "Scannota",
       "titleKey": "projects.projectNumber",
-      "descriptionKey": "home.projects.project5",
-      "techs": ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+      "descriptionKey": "projects.subtitle",
+      "techs": [
+        "Loom",
+        "Portfolio"
+      ],
       "featured": true,
-      "link": "/projetos?project=codervex",
+      "link": "/projetos?project=scannota",
+      "thumbnail": "/img/Capa codervex.jpg"
+    },
+    {
+      "id": 2,
+      "slug": "lb-camisas",
+      "title": "LBCamisas",
+      "titleKey": "projects.projectNumber",
+      "descriptionKey": "projects.subtitle",
+      "techs": [
+        "Loom",
+        "E-commerce"
+      ],
+      "featured": true,
+      "link": "/projetos?project=lb-camisas",
+      "thumbnail": "/img/Capa codervex.jpg"
+    },
+    {
+      "id": 3,
+      "slug": "agromax",
+      "title": "Agromax",
+      "titleKey": "projects.projectNumber",
+      "descriptionKey": "projects.subtitle",
+      "techs": [
+        "Loom",
+        "Agribusiness"
+      ],
+      "featured": true,
+      "link": "/projetos?project=agromax",
       "thumbnail": "/img/Capa codervex.jpg"
     }
   ]
 }
-

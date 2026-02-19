@@ -211,7 +211,7 @@
         "features": [
           "Site institucional completo para empresa de energia solar",
           "Calculadora fotovoltaica interativa",
-          "Sessões de serviços, portfólio e depoimentos",
+          "Sessões de serviços, portfolio e depoimentos",
           "Navegação suave e layout totalmente responsivo"
         ],
         "technologies": [
@@ -222,7 +222,7 @@
           "Shadcn UI"
         ]
       },
-      "percirelli": {
+      "website": {
         "features": [
           "Catálogo dinâmico de produtos",
           "Página de venda com destaque por categorias",
@@ -236,7 +236,7 @@
           "Netlify (Deploy)"
         ]
       },
-      "codervex": {
+      "scannota": {
         "features": [
           "Análise de projetos web (GitHub ou ZIP)",
           "Geração de superprompts de IA com contexto estruturado",
@@ -255,7 +255,35 @@
           "Netlify (Deploy)"
         ]
       },
-      "gymcirelli": {
+      "lbcamisas": {
+        "features": [
+          "Catálogo dinâmico de produtos",
+          "Página de venda com destaque por categorias",
+          "Layout responsivo e moderno",
+          "Navegação rápida e otimizada"
+        ],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Netlify (Deploy)"
+        ]
+      },
+      "agromax": {
+        "features": [
+          "Site institucional para o setor do agronegócio",
+          "Apresentação de serviços e maquinário",
+          "Layout robusto e responsivo",
+          "Otimização para busca e performance"
+        ],
+        "technologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      "gym": {
         "features": [
           "Guia completo de treinamento de força",
           "Biblioteca de exercícios por grupo muscular",

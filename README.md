@@ -7,7 +7,7 @@ Um portfolio pessoal moderno e responsivo desenvolvido com Next.js, TypeScript e
 
 1. Open the terminal and navigate to the directory where you want to clone the repository, then run the following command:
     ```bash
-    git clone https://github.com/guicirelli/landing-page.cirelli
+    git clone https://github.com/LucasBanheti/portfolio
     ```
    
 2. Enter the project directory:
@@ -87,7 +87,7 @@ content/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/guicirelli/portfolio.git
+git clone https://github.com/LucasBanheti/portfolio.git
 
 # Entre na pasta do projeto
 cd portfolio
@@ -105,8 +105,8 @@ Crie um arquivo `.env.local` na raiz do projeto:
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
 
 # Configurações do site
-NEXT_PUBLIC_SITE_URL=https://guilherme-cirelli.dev
-CONTACT_EMAIL=guilherme@cirelli.dev
+NEXT_PUBLIC_SITE_URL=https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc
+CONTACT_EMAIL=lucas_banheti@hotmail.com
 ```
 
 ### 3. Personalização
@@ -248,9 +248,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Lucas Banheti**
 
-- Email: guilherme@cirelli.dev
-- LinkedIn: [linkedin.com/in/guicirelli](https://linkedin.com/in/guicirelli)
-- GitHub: [github.com/guicirelli](https://github.com/guicirelli)
+- Email: lucas_banheti@hotmail.com
+- LinkedIn: [linkedin.com/in/lucas-banheti/](https://www.linkedin.com/in/lucas-banheti/)
+- GitHub: [github.com/LucasBanheti](https://github.com/LucasBanheti)
 
 ---
 

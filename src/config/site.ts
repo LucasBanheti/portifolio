@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Lucas Banheti",
   description: "Desenvolvedor web recém-formado em Análise e Desenvolvimento de Sistemas, com sólida base em lógica de programação, desenvolvimento web e banco de dados. Buscando iniciar carreira na área de tecnologia.",
-  url: "https://www.guilhermecirelli.com.br",
+  url: "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc",
   ogImage: "/img/og-image.jpg",
   links: {
     linkedin: "https://www.linkedin.com/in/lucas-banheti/",

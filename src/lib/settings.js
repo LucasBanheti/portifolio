@@ -16,7 +16,7 @@ const businessSettingsEN = {
 };
 
 const generalSettings = {
-  "siteUrl": "https://guilherme-cirelli.dev",
+  "siteUrl": "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc",
   "footerText": `© ${new Date().getFullYear()} Lucas Banheti. Todos os direitos reservados. Construído com Next.js e muito ☕.`,
   "postsToShow": 6,
   "homeCategory": "Development",

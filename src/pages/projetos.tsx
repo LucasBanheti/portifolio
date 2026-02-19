@@ -33,69 +33,36 @@ interface ProjetoConfig extends Omit<Projeto, 'funcionalidades' | 'tecnologias'>
 const PROJECT_CONFIGS: ProjetoConfig[] = [
   {
     id: 1,
-    slug: "codervex",
-    title: "Codervex",
-    videoUrl: "https://www.youtube.com/embed/PprX7PSDkyw",
-    link: "https://codervex.netlify.app/",
-    featuresKey: "projects.detail.codervex.features",
-    technologiesKey: "projects.detail.codervex.technologies",
+    slug: "scannota",
+    title: "Scannota",
+    videoUrl: "https://www.loom.com/embed/988daa64ab7d4d07884083d4537442cc?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
+    link: "https://www.loom.com/share/988daa64ab7d4d07884083d4537442cc",
+    featuresKey: "projects.detail.scannota.features",
+    technologiesKey: "projects.detail.scannota.technologies",
     featured: true,
     thumbnail: "/img/Capa codervex.jpg"
   },
   {
     id: 2,
-    slug: "gymcirelli",
-    title: "GymCirelli",
-    videoUrl: "https://www.youtube.com/embed/e2uZdqkvkjo",
-    link: "https://gymcirelli.netlify.app/",
-    featuresKey: "projects.detail.gymcirelli.features",
-    technologiesKey: "projects.detail.gymcirelli.technologies",
-    featured: false,
-    thumbnail: "/img/capa gymcirelli.jpg"
+    slug: "lb-camisas",
+    title: "LBCamisas",
+    videoUrl: "https://www.loom.com/embed/c3b20c40acb64849843d6a2755ed52a5?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
+    link: "https://www.loom.com/share/c3b20c40acb64849843d6a2755ed52a5",
+    featuresKey: "projects.detail.lbcamisas.features",
+    technologiesKey: "projects.detail.lbcamisas.technologies",
+    featured: true,
+    thumbnail: "/img/Capa codervex.jpg"
   },
   {
     id: 3,
-    slug: "percirelli-store",
-    title: "Percirelli Store",
-    videoUrl: "https://www.loom.com/embed/a0411ff38e1b414a8f6407def6f63fb6?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
-    link: "https://percirelli.netlify.app/",
-    featuresKey: "projects.detail.percirelli.features",
-    technologiesKey: "projects.detail.percirelli.technologies",
-    featured: false,
-    thumbnail: "/img/capa percirelli.jpg"
-  },
-  {
-    id: 4,
-    slug: "dashboard-finance",
-    title: "Dashboard Finance",
-    videoUrl: "https://www.loom.com/embed/278249263aa340a8be79175a57394a84?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
-    link: "https://financeguicirelli.netlify.app",
-    featuresKey: "projects.detail.dashboardFinance.features",
-    technologiesKey: "projects.detail.dashboardFinance.technologies",
-    featured: false,
-    thumbnail: "/img/capa finance.jpg"
-  },
-  {
-    id: 5,
-    slug: "flowly",
-    title: "Flowly",
-    videoUrl: "https://www.loom.com/embed/0fbc80129201406ba932793bd91ce3d9?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
-        link: "https://flowlypainel.netlify.app",
-    featuresKey: "projects.detail.flowly.features",
-    technologiesKey: "projects.detail.flowly.technologies",
-    featured: false,
-    thumbnail: "/img/capa flowly.jpg"
-  },
-  {
-    id: 6,
-    slug: "astrotech-solar",
-    title: "AstroTech Solar",
-    videoUrl: "https://www.loom.com/embed/83fc245bc8f54a09ad077c21cf1a0cc1?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
-    link: "https://astrotechsolar.netlify.app",
-    featuresKey: "projects.detail.astrotech.features",
-    technologiesKey: "projects.detail.astrotech.technologies",
-    featured: false,
-    thumbnail: "/img/foto astrotech.jpg"
+    slug: "agromax",
+    title: "Agromax",
+    videoUrl: "https://www.loom.com/embed/fe49962a01374e2e87f5ae76181af0a7?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true",
+    link: "https://www.loom.com/share/fe49962a01374e2e87f5ae76181af0a7",
+    featuresKey: "projects.detail.agromax.features",
+    technologiesKey: "projects.detail.agromax.technologies",
+    featured: true,
+    thumbnail: "/img/Capa codervex.jpg"
   }
 ];
 
@@ -103,7 +70,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
   const { t, language } = useLanguage();
   const { isSignedIn, isLoaded } = useUser();
   const router = useRouter();
-  
+
   const projetos: Projeto[] = useMemo(
     () =>
       PROJECT_CONFIGS.map(({ featuresKey, technologiesKey, ...rest }) => {
@@ -122,7 +89,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
   // Função para filtrar apenas as tecnologias principais
   const getMainTechnologies = (technologies: string[]): string[] => {
     const mainTechs = ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'];
-    return technologies.filter(tech => 
+    return technologies.filter(tech =>
       mainTechs.some(mainTech => tech.toLowerCase().includes(mainTech.toLowerCase()))
     );
   };
@@ -151,14 +118,14 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
     if (projetos.length === 0) {
       return;
     }
- 
-     setProjetoSelecionado((current) => {
-       const fallback = projetos[0];
-       const updated = projetos.find((proj) => proj.id === current.id) ?? fallback;
-       return updated;
-     });
-   }, [projetos]);
-  
+
+    setProjetoSelecionado((current) => {
+      const fallback = projetos[0];
+      const updated = projetos.find((proj) => proj.id === current.id) ?? fallback;
+      return updated;
+    });
+  }, [projetos]);
+
   // Refs para controlar timers e prevenir spam
   const timerNotificacaoRef = useRef<NodeJS.Timeout | null>(null);
   const ultimoClickRef = useRef<number>(0);
@@ -228,14 +195,14 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
     if (timerNotificacaoRef.current) {
       clearTimeout(timerNotificacaoRef.current);
     }
-    
+
     // Esconde notificação anterior imediatamente
     setMostrarNotificacao(false);
-    
+
     // Pequeno delay para garantir que a animação reinicie
     setTimeout(() => {
       setMostrarNotificacao(true);
-      
+
       // Agenda esconder notificação
       timerNotificacaoRef.current = setTimeout(() => {
         setMostrarNotificacao(false);
@@ -247,9 +214,9 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
   // Função para curtir/descurtir (otimizada contra spam)
   const toggleLike = (projectId: number, e: React.MouseEvent) => {
     e.stopPropagation();
-    
+
     const agora = Date.now();
-    
+
     // === CASO 1: Usuário NÃO autenticado ===
     if (!isSignedIn) {
       // Throttle: Só mostra notificação se passou tempo suficiente
@@ -257,12 +224,12 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
         // Muito rápido, ignora o click completamente
         return;
       }
-      
+
       ultimoClickRef.current = agora;
       mostrarNotificacaoLogin(4000);
       return;
     }
-    
+
     // === CASO 2: Usuário AUTENTICADO ===
     // Salva a curtida sem mostrar notificação
     const newLikes = { ...likes };
@@ -281,7 +248,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
     setProjetoSelecionado(projeto);
     setIsFullscreen(false); // Resetar tela cheia ao trocar de projeto
     setVideoPlaying((prev) => ({ ...prev, [projeto.id]: false })); // Resetar estado do vídeo ao trocar de projeto
-    
+
     if (!options?.skipUrlUpdate && router.isReady) {
       router.replace(
         {
@@ -292,7 +259,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
         { shallow: true }
       );
     }
-    
+
     if (options?.skipScroll) {
       return;
     }
@@ -303,7 +270,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
   const metaDescription = language === 'pt'
     ? `Confira os projetos desenvolvidos por ${businessSettings.brandName} - Desenvolvedor web especializado em soluções modernas.`
     : `Check out the projects developed by ${businessSettings.brandName} - Web developer specialized in modern solutions.`;
- 
+
   return (
     <>
       <Head>
@@ -328,7 +295,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
               <p className="font-semibold text-base">{t('projects.like.loginRequired')}</p>
               <p className="text-sm text-blue-100">{t('projects.like.loginMessage')}</p>
             </div>
-            <button 
+            <button
               onClick={() => setMostrarNotificacao(false)}
               className="ml-2 hover:bg-white/20 rounded p-1 transition-colors"
             >
@@ -356,7 +323,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
         {/* Layout Principal */}
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 md:px-8 py-6 sm:py-7 md:py-8">
           <div className="flex flex-col lg:flex-row gap-4 sm:gap-5 md:gap-6">
-            
+
             {/* Sidebar Esquerda - Lista de Projetos */}
             <aside className="w-full lg:w-64 shrink-0">
               <div className="space-y-2 sm:space-y-3 sticky top-20 sm:top-24">
@@ -373,73 +340,69 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
                     role="button"
                     tabIndex={0}
                     aria-label={`Selecionar ${projeto.title}`}
-                    className={`w-full text-left px-5 py-4 rounded-lg transition-all duration-200 shadow-lg relative cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                      projetoSelecionado.id === projeto.id
-                        ? 'bg-blue-600 text-white shadow-blue-600/30'
-                        : 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700 shadow-gray-300/50 dark:shadow-gray-900/50'
-                    }`}
+                    className={`w-full text-left px-5 py-4 rounded-lg transition-all duration-200 shadow-lg relative cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 ${projetoSelecionado.id === projeto.id
+                      ? 'bg-blue-600 text-white shadow-blue-600/30'
+                      : 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700 shadow-gray-300/50 dark:shadow-gray-900/50'
+                      }`}
                   >
-                      {/* Badge de Destaque no canto superior esquerdo */}
-                      {projeto.featured && (
-                        <span className="absolute top-1.5 left-1.5 text-[10px]">
-                          ⭐
-                        </span>
-                      )}
+                    {/* Badge de Destaque no canto superior esquerdo */}
+                    {projeto.featured && (
+                      <span className="absolute top-1.5 left-1.5 text-[10px]">
+                        ⭐
+                      </span>
+                    )}
 
-                      {/* Botão de Curtir no canto superior direito */}
-                      <button
-                        onClick={(e) => toggleLike(projeto.id, e)}
-                        className={`absolute top-2 right-2 p-1.5 rounded-full transition-all duration-200 ${
-                          isLiked(projeto.id)
-                            ? 'bg-red-500 hover:bg-red-600'
-                            : projetoSelecionado.id === projeto.id
-                            ? 'bg-white/20 hover:bg-white/30'
-                            : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    {/* Botão de Curtir no canto superior direito */}
+                    <button
+                      onClick={(e) => toggleLike(projeto.id, e)}
+                      className={`absolute top-2 right-2 p-1.5 rounded-full transition-all duration-200 ${isLiked(projeto.id)
+                        ? 'bg-red-500 hover:bg-red-600'
+                        : projetoSelecionado.id === projeto.id
+                          ? 'bg-white/20 hover:bg-white/30'
+                          : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
                         }`}
-                        title={isSignedIn ? (isLiked(projeto.id) ? t('projects.like.unlikeAction') : t('projects.like.likeAction')) : t('projects.like.loginRequired')}
-                      >
-                        <svg 
-                          className={`w-4 h-4 ${
-                            isLiked(projeto.id) 
-                              ? 'text-white' 
-                              : projetoSelecionado.id === projeto.id
-                              ? 'text-white'
-                              : 'text-gray-600 dark:text-gray-300'
+                      title={isSignedIn ? (isLiked(projeto.id) ? t('projects.like.unlikeAction') : t('projects.like.likeAction')) : t('projects.like.loginRequired')}
+                    >
+                      <svg
+                        className={`w-4 h-4 ${isLiked(projeto.id)
+                          ? 'text-white'
+                          : projetoSelecionado.id === projeto.id
+                            ? 'text-white'
+                            : 'text-gray-600 dark:text-gray-300'
                           }`}
-                          fill={isLiked(projeto.id) ? 'currentColor' : 'none'} 
-                          stroke="currentColor" 
-                          viewBox="0 0 24 24"
-                        >
-                          <path 
-                            strokeLinecap="round" 
-                            strokeLinejoin="round" 
-                            strokeWidth={2} 
-                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" 
-                          />
-                        </svg>
-                      </button>
+                        fill={isLiked(projeto.id) ? 'currentColor' : 'none'}
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        />
+                      </svg>
+                    </button>
 
-                      <div className="mb-2 pr-8">
-                        <div className="mb-1">
-                          <span className="font-semibold text-base">
-                            {projeto.title}
-                          </span>
-                        </div>
+                    <div className="mb-2 pr-8">
+                      <div className="mb-1">
+                        <span className="font-semibold text-base">
+                          {projeto.title}
+                        </span>
                       </div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {getMainTechnologies(projeto.tecnologias).map((tech, index) => (
-                          <span
-                            key={index}
-                            className={`text-xs px-2 py-0.5 rounded ${
-                              projetoSelecionado.id === projeto.id
-                                ? 'bg-white/20 text-white'
-                                : 'bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300'
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {getMainTechnologies(projeto.tecnologias).map((tech, index) => (
+                        <span
+                          key={index}
+                          className={`text-xs px-2 py-0.5 rounded ${projetoSelecionado.id === projeto.id
+                            ? 'bg-white/20 text-white'
+                            : 'bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-300'
                             }`}
-                          >
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -448,7 +411,7 @@ const Projetos = ({ businessSettings, generalSettings }: ProjetosProps) => {
             {/* Painel Central - Detalhes do Projeto */}
             <main className="flex-1 w-full" ref={painelCentralRef}>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-5 md:p-6 lg:p-8">
-                
+
                 {/* Título do Projeto */}
                 <div className="mb-4 sm:mb-5 md:mb-6">
                   <div className="flex flex-wrap items-center gap-2 sm:gap-3">

@@ -16,7 +16,7 @@ Para que a integração funcione, você precisa configurar as seguintes variáve
 ### 1. Acesse o Dashboard do Netlify
 
 1. Faça login em [https://app.netlify.com](https://app.netlify.com)
-2. Selecione seu site (landing-page-cirelli)
+2. Selecione seu site (portfolio)
 3. Vá em **Site settings** (Configurações do site)
 4. No menu lateral, clique em **Environment variables** (Variáveis de ambiente)
 
